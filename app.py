@@ -3,7 +3,7 @@ from flask import Flask, render_template, url_for, request
 import pickle
 
 # load model
-model = pickle.load(open('/home/raj/Desktop/RandomForest/random_forest_regression_model.pkl','rb'))
+model = pickle.load(open('random_forest_regression_model.pkl','rb'))
 
 # app
 app = Flask(__name__)
